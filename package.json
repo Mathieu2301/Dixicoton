@@ -1,0 +1,20 @@
+{
+  "name": "dixiserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "dixit"
+  ],
+  "author": "Mathieu Colmon",
+  "license": "ISC",
+  "dependencies": {
+    "console-table-printer": "^1.0.1",
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
